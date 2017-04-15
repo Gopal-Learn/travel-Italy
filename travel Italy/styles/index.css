@@ -1,0 +1,109 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+body{
+	width: 1088px;
+	margin: 0 auto;
+
+}
+
+/*顶部部分*/
+#top{
+	width: 100%;
+	height: 30px;
+	background-color: #986b45;
+	overflow: hidden;
+}
+
+#top h1,.mesPer{
+	display: inline;
+	line-height: 50px;
+	height: 50px;
+}
+
+#top h1{
+	margin-left: 30px;
+}
+
+.mesPer{
+	float: right;
+	overflow: hidden;
+}
+
+.messageLogo, .personalLogo{
+	width: 25px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.message,.personal{
+	/*display: inline;*/
+	float: right;
+	margin-right: 60px;
+	padding: 0 10px;
+}
+
+.mesPer a{
+	font-size: 20px;
+}
+
+.message:hover,.personal:hover{
+	background-color: #8c5d31;
+	width: 120px;
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	color: #fff;
+}
+
+/*中间部分*/
+#map{
+	width: 600px;
+	display: inline;
+}
+
+#question{
+	width: 350px;
+	display: inline;
+	height: 588px;
+	float: right;
+}
+
+#map .mappizza1,.mappizza2,.mappizza3,.mappizza4,.mappizza5,.mappizza6{
+	width: 60px;
+	z-index:1;
+	position: absolute;
+}
+
+.mapbg1,.map{
+	width: 600px;
+	height:588px;
+}
+
+.mapbg1{
+	z-index: -100;
+}
+
+.map{
+	z-index: 0;
+	position: absolute;
+}
+
+.title{
+	height: 80px;
+	float: left;
+}
+
+.quesbg{
+	width: 300px;
+}
+
+/*尾部部分*/
+#footer{
+	width: 100%;
+	height: 30px;
+	background-color: #986b45;
+}
