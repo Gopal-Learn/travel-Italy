@@ -1,3 +1,14 @@
+
+@font-face {
+ font-family: 'hobostdRegular';
+ src: url('../fonts/hobostd.otf');
+ src: local('hobostd Regular'),
+        local('hobostd'),
+        url('../fonts/hobostd.woff') format('woff'),
+        url('../fonts/hobostd.ttf') format('truetype'),
+        url('../fonts/hobostd.svg#hobostd') format('svg');
+}
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -7,40 +18,43 @@
 body{
 	width: 1088px;
 	margin: 0 auto;
-
 }
 
 /*顶部部分*/
-#top{
+#top1{
 	width: 100%;
 	height: 30px;
 	background-color: #986b45;
 	overflow: hidden;
 }
 
-#top h1,.mesPer{
+#top1 h1,.mesPer{
 	display: inline;
-	line-height: 50px;
-	height: 50px;
+	line-height: 30px;
+	height: 30px;
 }
 
-#top h1{
+#top1 h1{
 	margin-left: 30px;
+	font-size: 28px;
+	font-family: "hobostdRegular";
+	color: #fff;
 }
 
 .mesPer{
 	float: right;
 	overflow: hidden;
+	font-family: "微软雅黑";
 }
 
 .messageLogo, .personalLogo{
 	width: 25px;
 	height: 20px;
 	vertical-align: middle;
+	margin-bottom: 5px;
 }
 
-.message,.personal{
-	/*display: inline;*/
+.message,.personal,.off{
 	float: right;
 	margin-right: 60px;
 	padding: 0 10px;
@@ -48,62 +62,73 @@ body{
 
 .mesPer a{
 	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
 }
 
-.message:hover,.personal:hover{
+.message:hover,.personal:hover,.off:hover{
 	background-color: #8c5d31;
-	width: 120px;
-	height: 50px;
 	overflow: hidden;
 	cursor: pointer;
 	color: #fff;
 }
 
+.message:hover a,.personal:hover a,.off:hover a{
+	color: #000;
+}
+
+
 /*中间部分*/
-#map{
-	width: 600px;
-	display: inline;
+.pizza1,.pizza2,.pizza3{
+	width: 70px;
 }
 
-#question{
-	width: 350px;
-	display: inline;
-	height: 588px;
-	float: right;
-}
 
-#map .mappizza1,.mappizza2,.mappizza3,.mappizza4,.mappizza5,.mappizza6{
-	width: 60px;
-	z-index:1;
+
+.con1,.con2,.con3{
 	position: absolute;
+	width: 80px;
+	height: 60px;
+	cursor: pointer;
 }
 
-.mapbg1,.map{
-	width: 600px;
-	height:588px;
-}
-
-.mapbg1{
-	z-index: -100;
-}
-
-.map{
-	z-index: 0;
+.text1,.text2,.text3{
 	position: absolute;
+	top: 8px;
+	left: 30px;
+	display: none;
+	color: #fff;
+	font-size: 12px;
 }
 
-.title{
-	height: 80px;
-	float: left;
+.monsa1,.monsa2,.monsa3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 80px;
+	display: none;
 }
 
-.quesbg{
-	width: 300px;
+.pizza1{
+	position: absolute;
+	top:0;
+	left: 0px;
 }
 
+.con1:hover,.con2:hover,.con3:hover{
+	  transition:All 0.4s ease-in-out;    
+	  -webkit-transition:All 0.4s ease-in-out;    
+	  -moz-transition:All 0.4s ease-in-out;    
+	  -o-transition:All 0.4s ease-in-out;    
+	  transform:rotate(360deg) scale(1.1);    
+	  -webkit-transform:rotate(360deg) scale(1.1);    
+	  -moz-transform:rotate(360deg) scale(1.1);    
+	  -o-transform:rotate(360deg) scale(1.1);    
+	  -ms-transform:rotate(360deg) scale(1.1);
+}
 /*尾部部分*/
 #footer{
 	width: 100%;
-	height: 30px;
+	height: 34px;
 	background-color: #986b45;
 }

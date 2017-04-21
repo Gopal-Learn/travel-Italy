@@ -1,0 +1,106 @@
+*{
+	overflow: visible;
+}
+
+.containerSign{
+	width: 1088px;
+	height: 643px;
+	margin: 0 139px;
+	overflow: hidden;
+}
+
+.container{
+	width: 100%;
+}
+
+.right,.left{
+	width: 50%;
+	float: left;
+	height: 585px;	
+}
+
+.right{
+	background: #47382b;
+	color: #fff;
+}
+
+.left{
+	background: #86796b;
+}
+
+.yourMes,.otherMes{
+	width: 80%;
+	height: 500px;
+	margin: 30px auto;
+}
+
+#textInput{
+	width: 400px;
+	height: 100px;
+	margin: 30px auto;
+}
+
+.history,.others{
+	list-style-type: none;
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+
+.others{
+	height: 600px;
+	color: #fff;
+}
+
+.history li,.others li{
+	border-top: 2px solid gray;
+	padding-top: 3px;
+}
+
+.history img.head,.others img.head{
+	width: 55px;
+	margin-left: -55px;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+.history .name,.others .name{
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.comMes{
+	display: inline-block;
+}
+
+.like{
+	width: 15px;
+	padding:0 30px;
+	text-decoration: none;
+}
+
+.history a,.others a,.replyText{
+	color: #ccc;
+	font-size: 10px;
+}
+
+.history a:hover,.others a:hover,.replyText:hover{
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.reply{
+	width: 360px;
+	height: 60px;
+}
+
+.reply textarea{
+	margin-right: 10px;
+}
+
+.reply button{
+	vertical-align: middle;
+}

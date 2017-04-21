@@ -1,0 +1,232 @@
+/*中间左边部分*/
+/**{
+	overflow: visible;	
+}*/
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+.container1{
+	height: 585px;
+}
+
+#nav{
+	width: 175px;
+	height: 585px;
+	background: #86796b;
+	display: inline-block;
+	float: left;
+	overflow: visible;
+}
+
+#nav ul{
+	width: 100px;
+	background: #4c453d;
+	margin:0 auto;
+	text-align: center;
+	margin-top:20px;
+	border: 1px #4c453d solid;
+	border-radius: 3%;
+	z-index: 100;
+	overflow: visible;
+}
+
+#nav ul li{
+	margin: 18px 0;
+	padding: 10px;
+	font-family: "hobostdRegular";
+	font-size: 20px;
+	background: #26221e;
+	border: 1px #26221e solid;
+	border-radius: 7%;
+	position: relative;
+	list-style-type: none;
+	overflow: visible;
+}
+
+#nav ul li a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav ul li a:hover,#nav ul li:hover{
+	cursor: pointer;
+	background: #26221e	;
+	color: #fff;
+	font-size: 24px;
+}
+
+.buttonLogo1,.buttonLogo{
+	width: 50px;
+	background: #86796b; 
+	margin: 17px 60px;
+}
+
+
+.leave,.form{
+	width: 30px;
+}
+
+.romeblo,.milanblo,.veniceblo{
+	width: 170px;
+	height: 50px;
+	position: absolute;
+	left: 100px;
+	top: 2px;
+	z-index:1000;
+	display: none;
+	background: #4c453d;
+	border: 1px #4c453d solid;
+	border-radius: 7%;
+	font-family: "hobostdRegular";
+}
+
+.romeblo dd:hover,.milanblo dd:hover,.veniceblo dd:hover{
+	cursor: pointer;
+	background: #26221e
+}
+
+.romeblo dd,.milanblo dd,.veniceblo dd{
+	display: inline;
+}
+
+dl{
+	margin-top: 6px;
+	float: left;
+}
+
+.after{
+	transition:All 0.4s ease-in-out;
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+}
+
+/*中间右边轮播部分*/
+#gallery{
+	display: inline-block;
+	width: 913px;
+	height: 585px;
+	background: #47382b;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.imgRight{
+	position: absolute;
+	font-size: 23px;
+	left: 1100px;
+	top: 50px;	
+	color: #fff;
+	font-family: "hobostdRegular";
+}
+
+.imgRight .loveImg{
+	margin-top: 350px;
+	width: 100px;
+	border: 1px solid #2a2119;
+	padding: 5px;
+	border-radius: 5%;
+	background: #2a2119;
+}
+
+.imgRight .loveImg img{
+	width: 20px;
+	margin: 0 10px;
+	background: #2a2119;
+}
+
+.love{
+	width: 40px;
+}
+
+.imgRight .loveImg:hover{
+	/*background: #bfbfbf;*/
+	/*border-color: #bfbfbf;*/
+	cursor: pointer;	
+}
+
+.slidesbox{
+	width: 700px;
+	height: 460px;
+	position: relative;
+	left: 70px;
+	top: 30px;
+	border: 5px solid #000;
+}
+
+.slide1{
+	display: inline-block;
+	width: 700px;
+	height: 460px;
+	overflow: hidden;
+}
+
+.img-pop{
+	padding: 0 25px;
+	width: 650px;
+	height: 80px;
+	line-height: 40px;
+	position: absolute;
+	top: 380px;
+	font-size: 25px;
+	background: #000;
+	opacity: 0.6;
+	color: #fff;
+	text-align: center;
+}
+
+.slide1 img:hover{
+	cursor: pointer;
+}
+
+.img-pop span,.img-pop span a{
+	color: #fff;
+}
+
+.img-pop span.left{
+	float: left;
+}
+
+.img-pop span.right{
+	float: right;
+}
+
+.menu{
+	width: 335px;
+	height: 30px;
+	position: relative;
+	top: 69px;
+	left: 240px;
+	background:#2a2119;
+	border-radius: 7%;
+}
+
+.menuItem{
+	display: inline-block;
+	border: 1px #47382b solid;
+	border-radius: 50%;
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	margin: 5px 25px;
+}
+
+.menuItem:hover{
+	cursor: pointer;
+}
+
+.inact{
+	background: #bfbfbf;	
+}
+
+.act{
+	background: #030202;
+}
+
+
+

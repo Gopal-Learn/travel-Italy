@@ -1,0 +1,66 @@
+/*中间部分*/
+.bg2{
+	width: 100%;
+	height: 585px;
+}
+
+.mainSelect{
+	width: 100%;
+	height: 585px;
+	background: url(../images/images/bg2.png);
+	z-index: -1;
+}
+
+.titleSelect{
+	font-family: 'hobostdRegular';
+	font-size: 80px;
+	color: #fff;
+	position: absolute;
+	top: 80px;
+	left:445px;
+
+}
+
+.lessonimgbox{
+	width: 170px;
+    height: 230px;
+    overflow: hidden;
+    /*background: #ddd;*/
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin: 156px 96px;
+    vertical-align: middle;
+}
+
+.lessonimgbox  .img-pop{
+    width: 170px;
+    height: 210px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 40;
+    background: #111;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.img-box1{
+	z-index: 20;
+	width: 170px;
+}
+
+.fond{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.journey{
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+.img-pop span{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #fff;
+}

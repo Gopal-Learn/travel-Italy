@@ -1,0 +1,40 @@
+		*{
+			overflow: visible;
+		}
+
+		.containerSign{
+			width: 1088px;
+			height: 643px;
+			margin: 0 139px;
+			overflow: hidden;
+		}
+
+		.signBox{
+			width: 1088px;
+			height: 585px;
+			background: #47382b;
+			margin: 0 auto;
+		}
+
+		input{
+			width: 300px;
+			height: 24px;
+			padding: 10px;
+		}
+
+		.signContainer{
+			width: 300px;
+			margin: 100px auto;
+			color: #fff;
+		}
+
+		legend{
+			color: #fff;
+			font-size: 30px;
+		}
+
+		button.btn{
+			width: 310px;
+			margin-top: 30px;
+		}
+		

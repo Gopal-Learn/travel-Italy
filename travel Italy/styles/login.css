@@ -1,0 +1,37 @@
+		*{
+			overflow: visible;
+		}
+		
+		.containerSign{
+			width: 1088px;
+			height: 643px;
+			margin: 0 139px;
+			overflow: hidden;
+		}
+
+		.signBox{
+			width: 1088px;
+			height: 585px;
+			background: #47382b;
+			margin: 0 auto;
+		}
+
+		#exampleInputEmail1,#exampleInputPassword1{
+			width: 300px;
+			height: 24px;
+			padding: 10px;
+		}
+
+		.sign{
+			width: 320px;
+			vertical-align: middle;
+		}
+
+		.signContainer{
+			width: 350px;
+			margin: 160px auto;
+			color: #fff;
+		}
+
+
+		

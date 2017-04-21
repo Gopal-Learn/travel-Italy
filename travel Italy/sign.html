@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/sign.css">
+</head>
+<body>
+		<div class="containerSign">
+		<!-- 顶部部分 -->
+			<div id="top1">
+				<h1>Wow Italy.</h1>
+				<div class="mesPer">
+					<!-- <div class="off"><a href="#">注销</a></div> -->
+					<div class="personal">	
+						<img src="images/personal.png" alt="personal" class="personalLogo">
+						<span><a href="#">注册|登录</a></span>
+					</div>
+					<div class="message">
+						<img src="images/massage-icon1.png" alt="message" class="messageLogo">
+						<span><a href="#">个人主页</a></span>
+					</div>
+
+				</div>
+			</div>
+			<!-- 中间部分 -->
+	<div class="signBox container">
+		<div class="container signContainer">
+			<form method="post" action="/projects/1">
+				<fieldset id="personal_information">
+				<legend>Personal Information</legend>
+					<div class="form-group">
+					<label for="name">Name</label>
+					<input  type="text" name="name" class="from-control" placeholder="your real name" required>	
+					 <label for="password">Password</label>
+   					 <input  type="password" class="form-control"  placeholder="Password" required>
+   					 <label for="confirm">Password again</label>
+   					 <input  type="password" class="form-control"  placeholder="Write your password again" required>
+
+   					 <label for="email">E-mail</label>
+					<input  type="email" class="form-control" placeholder="Email address" required>
+					</div>
+					<button type="submit" class="btn btn-lg btn-primary sign">Sign in</button>	
+				</fieldset>
+			</form>
+			
+		</div>
+	</div>
+
+		<!-- 底部部分 -->
+		<div id="footer">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

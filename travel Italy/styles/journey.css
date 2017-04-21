@@ -1,0 +1,155 @@
+/*中间左边部分*/
+/**{
+	overflow: visible;	
+}*/
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+.container1{
+	height: 585px;
+}
+
+#nav{
+	width: 175px;
+	height: 585px;
+	background: #86796b;
+	display: inline-block;
+	float: left;
+	overflow: visible;
+}
+
+#nav ul{
+	width: 100px;
+	background: #4c453d;
+	margin:0 auto;
+	text-align: center;
+	margin-top:80px;
+	border: 1px #4c453d solid;
+	border-radius: 3%;
+	z-index: 100;
+	overflow: visible;
+}
+
+#nav ul li{
+	margin: 18px 0;
+	padding: 10px;
+	font-family: "hobostdRegular";
+	font-size: 14px;
+	background: #26221e;
+	border: 1px #26221e solid;
+	border-radius: 7%;
+	position: relative;
+	list-style-type: none;
+	overflow: visible;
+}
+
+#nav ul li a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav ul li a:hover,#nav ul li:hover{
+	cursor: pointer;
+	background: #26221e	;
+	color: #fff;
+	font-size: 18px;
+}
+
+.buttonLogo1,.buttonLogo{
+	width: 50px;
+	background: #86796b; 
+	margin: 17px 60px;
+}
+
+
+.leave,.form{
+	width: 30px;
+}
+
+.romeblo,.milanblo,.veniceblo{
+	width: 470px;
+	height: 125px;
+	position: absolute;
+	left: 100px;
+	top: 2px;
+	z-index:1000;
+	display: none;
+	background: #4c453d;
+	border: 1px #4c453d solid;
+	border-radius: 7%;
+	font-family: "hobostdRegular";
+}
+
+.romeblo dd:hover,.milanblo dd:hover,.veniceblo dd:hover{
+	cursor: pointer;
+	background: #26221e
+}
+
+.romeblo dd,.milanblo dd,.veniceblo dd{
+	display: inline;
+}
+
+dl{
+	margin-top: 6px;
+	float: left;
+}
+
+.after{
+	transition:All 0.4s ease-in-out;
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+}
+
+/*中间右边部分*/
+.form{
+	display: inline-block;
+	background: #47382b;
+	width: 913px;
+	height: 585px;	
+}
+
+.form ul{
+	list-style-type: none;
+}
+
+.form li img{
+	width: 700px;
+	/*height: 585px;*/
+	position: relative;
+	left: 80px;
+	top: 55px;
+}
+
+.leftDown{
+	position: relative;
+	top: -530px;
+	left: 960px;
+	font-size: 23px;
+	color: #fff;
+	font-family: "hobostdRegular";
+}
+
+.leftDown img{
+	width: 70px;
+	margin-top: 300px;
+	margin-left: 20px;
+}
+
+.leftDown img:hover{
+	cursor: pointer;
+	transition:All 0.4s ease-in-out;    
+	  -webkit-transition:All 0.4s ease-in-out;    
+	  -moz-transition:All 0.4s ease-in-out;    
+	  -o-transition:All 0.4s ease-in-out;    
+	  transform:rotate(360deg) scale(1.1);    
+	  -webkit-transform:rotate(360deg) scale(1.1);    
+	  -moz-transform:rotate(360deg) scale(1.1);    
+	  -o-transform:rotate(360deg) scale(1.1);    
+	  -ms-transform:rotate(360deg) scale(1.1);	
+}
